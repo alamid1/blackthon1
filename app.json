@@ -1,0 +1,68 @@
+{
+  "الاسم": "الأصل العربي بلاكثون المصدر" ،
+  "description": "مرحبًا بكم في BLackThon 8.1v {blackthon1}"،
+  "الشعار": "https://telegra.ph/file/6f796ca5d1c349fd25838.jpg" ،
+  "الكلمات الرئيسية": ["plugin" ، "modular" ، "إنتاجية"] ،
+  "المستودع": "https://github.com/alamid1/blackthon1" ،
+  "الموقع": "#TODO"،
+  "Success_url": "#TODO"،
+  "البيئة": {
+    "ALIVE_NAME": {
+      "الوصف": "هنا ضع اسم التلجرام الخاص بك"،
+      "قيمة": ""
+    } ،
+    "APP_ID": {
+      "description": "هنا ضع الايبي الخاص بك من ارقام"،
+      "قيمة": ""
+    } ،
+    "API_HASH": {
+      "description": "هنا ضع الايبي هاش الخاص بك الكس من احرف و ارقام"،
+      "قيمة": ""
+    } ،
+    "STRING_SESSION": {
+      "الوصف": "ضع كود تيرمكس"،
+      "قيمة": ""
+    } ،
+    "TG_BOT_USERNAME": {
+      "description": "ضع معرف بوتك بدون @"،
+      "قيمة": ""
+    } ،
+    "TG_BOT_TOKEN": {
+      "الوصف": "ضع توكن بوتك"،
+      "قيمة": ""
+    } ،
+    "COMMAND_HAND_LER": {
+      "description": "اتركة كما هوة أو ضع الأمر الذي تريده ، يظهر من أين؟
+      "قيمة": "."
+    } ،
+    "TZ": {
+      "وصف": "ضع القاره / عاصمة بلدك (اذا كنت لاتعرفه اتركة كما هوة)"،
+      "القيمة": "آسيا / بغداد" ،
+      "مطلوب": خطأ
+    }
+  } ،
+  "الإضافات": [{
+    "خطة": "heroku-postgresql"،
+    "خيارات": {
+      "الإصدار": "12"
+    }
+  }] ،
+  "buildpacks": [{
+    "url": "https://github.com/telethonArab/heroku-buildpack-ffmpeg-latest"
+  } ، {
+    "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+  } ، {
+    "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+  } ، {
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  } ، {
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  } ، {
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  } ، {
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  } ، {
+    "url": "heroku / python"
+  }] ،
+  "المكدس": "heroku-22"
+}
